@@ -1,3 +1,13 @@
+repositories {
+    maven {
+        url = "https://maven.teamabnormals.com"
+    }
+}
+
+dependencies {
+    implementation("com.teamabnormals:blueprint:<version>")
+}
+
 plugins {
     id "java-library"
     id "idea"
